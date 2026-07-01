@@ -10,6 +10,7 @@ info: |
 class: text-center
 transition: slide-left
 mdc: true
+routerMode: hash
 fonts:
   sans: Inter
   mono: JetBrains Mono
