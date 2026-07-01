@@ -1,0 +1,15 @@
+{
+  "name": "tradegram-blueprint",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base /tradegram-blueprint/",
+    "export": "slidev export",
+    "deploy": "npm run build && touch dist/.nojekyll && cp dist/index.html dist/404.html && npx gh-pages -d dist -t true"
+  },
+  "devDependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/theme-default": "^0.25.0"
+  }
+}
