@@ -25,10 +25,6 @@ An event-sourced trading engine where <span class="text-cyan-400">two AIs run th
 — and <span class="text-emerald-400">every operational job is an AI skill</span>.
 </div>
 
-<div class="abs-br m-6 text-sm opacity-50">
-Telegram → AI → MetaTrader 5 · a systems + applied-AI showcase
-</div>
-
 <!--
 One-line positioning. This deck builds toward a single claim: the breadth of AI
 automation. Not "we added a chatbot" — an entire operations surface (audit,
@@ -57,7 +53,7 @@ _A strategy you can only read, never run_
 - A "strategy" arrives as **free-form messages**:
   text, **edits**, voice notes, screenshots
 - _"XAUUSD buy 2340–2338, SL 2330, TP1 2350, TP2 2360…"_
-- Then a stream of management: _"move SL to BE"_, _"close half"_, _"TP1 done ✅"_
+- Then a stream of follow-up: _"move SL to BE"_, _"close half"_, _"TP1 done ✅"_
 - The edge decays in **seconds**; it never stops (24/7)
 
 </v-clicks>

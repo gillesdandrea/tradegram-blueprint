@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "dev": "slidev --open",
-    "build": "slidev build --base /tradegram-blueprint/",
+    "build": "slidev build --base ./",
     "export": "slidev export",
     "deploy": "npm run build && touch dist/.nojekyll && cp dist/index.html dist/404.html && npx gh-pages -d dist -t"
   },
